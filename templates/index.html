@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f8faf7" />
+  <title>EcoVision — Setor Botol</title>
+  <link rel="stylesheet" href="/static/css/style.css?v=brand-prices-8" />
+</head>
+<body>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 4C10 2 3 7 5 14c2 7 13 7 15-10Z"/><path d="M4 21 15 10M9 16v-5m0 5h5"/></symbol>
+    <symbol id="i-scan" viewBox="0 0 24 24"><path d="M8 3H4a1 1 0 0 0-1 1v4m13-5h4a1 1 0 0 1 1 1v4M3 16v4a1 1 0 0 0 1 1h4m8 0h4a1 1 0 0 0 1-1v-4M3 12h18"/><rect x="8" y="7" width="8" height="10" rx="2"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><path d="m8 5 1-2h6l1 2h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/><circle cx="12" cy="12" r="4"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v13m-5-5 5 5 5-5M4 15v5a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m8 0h5v-5"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5ZM20 2v4m-2-2h4"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 3v17h17M8 15l4-5 4 3 5-7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m8 12 3 3 5-6"/><circle cx="12" cy="12" r="9"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v.1"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+    <symbol id="eco-bottle" viewBox="0 0 100 100"><rect x="39" y="4" width="22" height="13" rx="4" fill="#73ae91"/><path d="M43 17h14v9c0 7 16 10 16 23v34c0 9-5 13-13 13H40c-8 0-13-4-13-13V49c0-13 16-16 16-23Z" fill="#e3f6e8" stroke="#77ad8c" stroke-width="2.5"/><path d="M29 49h42v27H29Z" fill="#abd2b5"/><path d="M38 35c-4 4-6 8-6 13" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="43" cy="62" r="2" fill="#3c7151"/><circle cx="57" cy="62" r="2" fill="#3c7151"/><path d="M44 68q6 6 12 0" fill="none" stroke="#3c7151" stroke-width="2" stroke-linecap="round"/><path d="M37 86h26" stroke="#b6dcc0" stroke-width="3" stroke-linecap="round"/></symbol>
+    <symbol id="eco-planet" viewBox="0 0 100 100"><circle cx="50" cy="50" r="39" fill="#c8e8ed" stroke="#87b8be" stroke-width="2"/><path d="m29 18 7 5 2 9-8 7 3 11-10 9-10-9 1-16Zm42 3-8 9 3 11 13 4 8-4-6-12ZM48 57l-11 8 6 16 10 6 10-12 1-11Z" fill="#93c5a1"/><path d="M7 69c-7 16 22 20 50 6s47-33 36-37" stroke="#c5b5dd" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="45" cy="47" r="2.5" fill="#4b7976"/><circle cx="60" cy="44" r="2.5" fill="#4b7976"/><path d="M48 53q7 5 12-3" fill="none" stroke="#4b7976" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="eco-leaf" viewBox="0 0 100 100"><path d="M46 91c-7-25 3-49 17-70" fill="none" stroke="#78a87a" stroke-width="4" stroke-linecap="round"/><path d="M56 45C49 19 67 9 88 10c-1 23-11 39-32 35Z" fill="#abd6a4"/><path d="M49 65C22 66 13 49 14 31c24 0 39 14 35 34Z" fill="#c2dea8"/><path d="M49 80c5-22 24-28 41-23-6 23-20 32-41 23Z" fill="#8ebf9d"/><path d="m58 40 20-20M44 59 24 42m32 32 22-10" stroke="#719d77" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="eco-flower" viewBox="0 0 100 100"><g fill="#d9c4ef"><ellipse cx="50" cy="27" rx="13" ry="23"/><ellipse cx="50" cy="27" rx="13" ry="23" transform="rotate(60 50 50)"/><ellipse cx="50" cy="27" rx="13" ry="23" transform="rotate(120 50 50)"/><ellipse cx="50" cy="27" rx="13" ry="23" transform="rotate(180 50 50)"/><ellipse cx="50" cy="27" rx="13" ry="23" transform="rotate(240 50 50)"/><ellipse cx="50" cy="27" rx="13" ry="23" transform="rotate(300 50 50)"/></g><circle cx="50" cy="50" r="20" fill="#fff0ba"/><circle cx="44" cy="48" r="2" fill="#ad9162"/><circle cx="56" cy="48" r="2" fill="#ad9162"/><path d="M45 55q5 5 10 0" stroke="#ad9162" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="eco-cloud" viewBox="0 0 100 100"><path d="M24 71C5 71 3 45 24 43c-1-27 39-31 44-7 25-8 40 30 15 35Z" fill="#fffdf8" stroke="#d4d8ea" stroke-width="2.5"/><circle cx="43" cy="54" r="2" fill="#a6a6c5"/><circle cx="58" cy="54" r="2" fill="#a6a6c5"/><path d="M46 61q5 5 10 0" stroke="#a6a6c5" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="eco-sun" viewBox="0 0 100 100"><g stroke="#e7c479" stroke-width="3.5" stroke-linecap="round"><path d="M50 5v9m0 72v9M5 50h9m72 0h9M18 18l7 7m50 50 7 7M18 82l7-7m50-50 7-7"/></g><circle cx="50" cy="50" r="28" fill="#ffe8aa"/><circle cx="43" cy="47" r="2" fill="#b6995f"/><circle cx="57" cy="47" r="2" fill="#b6995f"/><path d="M43 56q7 6 14 0" stroke="#b6995f" stroke-width="2.5" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="eco-recycle" viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#e6f0ce"/><g fill="none" stroke="#98b877" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="m35 32 8-13c3-5 8-5 11 0l13 22m-12-3 14 6 3-15M74 52l10 17c3 5 0 10-6 10H54m9-10-11 11 11 10M39 79H21c-6 0-9-5-6-10l13-22m1 14 1-16-16 2"/></g></symbol>
+    <symbol id="eco-butterfly" viewBox="0 0 100 100"><path d="M47 48C21 0 0 24 20 52c-17 28 10 43 29 8Z" fill="#c9b7e9"/><path d="M53 48C79 0 100 24 80 52c17 28-10 43-29 8Z" fill="#e6c5da"/><path d="M50 38v29m-2-28-8-10m12 10 8-10" stroke="#a797b8" stroke-width="3" stroke-linecap="round" fill="none"/><circle cx="28" cy="36" r="6" fill="#e9def6"/><circle cx="72" cy="36" r="6" fill="#f7e4ed"/></symbol>
+  </svg>
+  <div class="eco-scene" aria-hidden="true">
+    <svg class="eco-hills" viewBox="0 0 1440 240" preserveAspectRatio="none" focusable="false"><path d="M0 115Q230 230 490 105T970 125T1440 80V240H0Z" fill="#e5ebf6"/><path d="M0 170Q290 55 580 175T1120 130T1440 160V240H0Z" fill="#dcefdc"/></svg>
+    <span class="eco-motif" style="--x:88%;--y:2%;--size:180px;--tilt:12deg;--duration:13s;--delay:-3s"><svg viewBox="0 0 100 100" focusable="false"><use href="#eco-planet"/></svg></span>
+    <span class="eco-motif" style="--x:29%;--y:0%;--size:170px;--tilt:-7deg;--duration:15s;--delay:-8s"><svg viewBox="0 0 100 100" focusable="false"><use href="#eco-cloud"/></svg></span>
+    <span class="eco-motif" style="--x:19%;--y:38%;--size:105px;--tilt:-22deg;--duration:10s;--delay:-2s"><svg viewBox="0 0 100 100" focusable="false"><use href="#eco-leaf"/></svg></span>
+    <span class="eco-motif" style="--x:94%;--y:39%;--size:125px;--tilt:18deg;--duration:12s;--delay:-6s"><svg viewBox="0 0 100 100" focusable="false"><use href="#eco-bottle"/></svg></span>
+    <span class="eco-motif" style="--x:81%;--y:74%;--size:145px;--tilt:10deg;--duration:17s;--delay:-11s"><svg viewBox="0 0 100 100" focusable="false"><use href="#eco-recycle"/></svg></span>
+    <span class="eco-motif" style="--x:21%;--y:81%;--size:100px;--tilt:-9deg;--duration:14s;--delay:-4s"><svg viewBox="0 0 100 100" focusable="false"><use href="#eco-flower"/></svg></span>
+    <span class="eco-motif" style="--x:55%;--y:89%;--size:155px;--tilt:8deg;--duration:16s;--delay:-7s"><svg viewBox="0 0 100 100" focusable="false"><use href="#eco-cloud"/></svg></span>
+    <span class="eco-motif" style="--x:65%;--y:6%;--size:110px;--tilt:-18deg;--duration:11s;--delay:-5s"><svg viewBox="0 0 100 100" focusable="false"><use href="#eco-bottle"/></svg></span>
+    <span class="eco-motif" style="--x:79%;--y:26%;--size:85px;--tilt:16deg;--duration:9s;--delay:-2s"><svg viewBox="0 0 100 100" focusable="false"><use href="#eco-butterfly"/></svg></span>
+    <span class="eco-motif" style="--x:94%;--y:80%;--size:115px;--tilt:0deg;--duration:18s;--delay:-9s"><svg viewBox="0 0 100 100" focusable="false"><use href="#eco-sun"/></svg></span>
+    <span class="eco-bubble" style="--x:24%;--y:18%;--size:35px;--duration:12s;--delay:-4s"></span>
+    <span class="eco-bubble" style="--x:48%;--y:42%;--size:23px;--duration:16s;--delay:-9s"></span>
+    <span class="eco-bubble" style="--x:90%;--y:59%;--size:54px;--duration:15s;--delay:-2s"></span>
+    <span class="eco-bubble" style="--x:37%;--y:78%;--size:42px;--duration:18s;--delay:-11s"></span>
+    <span class="eco-bubble" style="--x:74%;--y:16%;--size:25px;--duration:13s;--delay:-6s"></span>
+    <span class="eco-bubble" style="--x:60%;--y:64%;--size:30px;--duration:17s;--delay:-7s"></span>
+  </div>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-icon"><svg class="icon"><use href="#i-leaf"/></svg></span><span>Eco<span class="green">Vision</span><small>A LITTLE GREENER, EVERY DAY</small></span></div>
+      <div class="nav-caption">WORKSPACE</div>
+      <a class="nav-active" href="#setoran" aria-current="page"><svg class="icon"><use href="#i-scan"/></svg><span>Setor Botol</span><span class="nav-dot"></span></a>
+      <a class="nav-link" href="#riwayat">Riwayat Setoran <span>↗</span></a>
+      <a class="nav-link" href="#pengaturan">Tarif Setoran <span>↗</span></a>
+      <div class="sidebar-note"><span class="note-flower" aria-hidden="true">✿</span><h3>Small steps.<br/>Greener planet.</h3><p>Kenali botol plastikmu.<br/>Mulai langkah baik hari ini.</p><span class="note-tag">Made for a better earth <span aria-hidden="true">↗</span></span></div>
+      <div class="sidebar-bottom"><span class="dot"></span> Powered by Roboflow <small>AI untuk langkah kecilmu.</small></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><span class="breadcrumb">Workspace <span class="slash">/</span> <strong>Reverse Vending Machine</strong></span><span class="pill">PROTOTIPE · KONFIRMASI MANUAL</span></header>
+      <section class="hero">
+        <div class="hero-copy"><div class="eyebrow"><span class="dot"></span> LITTLE ACTIONS, BIG IMPACT</div><h1>Kenali botol mu.<br/><span class="green">Sayangi bumi mu.</span><span class="heading-sparkle" aria-hidden="true">✳</span></h1><p>Scan merek botolmu, konfirmasi setoran, lalu unduh struknya. Satu botol, selangkah lebih peduli.</p><div class="hero-tags"><span><svg class="icon"><use href="#i-camera"/></svg> Scan realtime</span><span><svg class="icon"><use href="#i-chart"/></svg> Nilai rupiah</span><span><svg class="icon"><use href="#i-leaf"/></svg> Struk PDF</span><button type="button" class="motion-toggle" id="motionToggle" aria-label="Jeda animasi dekoratif" aria-pressed="false"><svg class="icon"><use href="#i-sparkle"/></svg><span>Jeda animasi</span></button></div></div>
+        <div class="hero-art" aria-hidden="true">
+          <svg class="hero-companion companion-planet" viewBox="0 0 100 100" focusable="false"><use href="#eco-planet"/></svg>
+          <svg class="hero-companion companion-cloud" viewBox="0 0 100 100" focusable="false"><use href="#eco-cloud"/></svg>
+          <svg class="hero-companion companion-leaf" viewBox="0 0 100 100" focusable="false"><use href="#eco-leaf"/></svg>
+          <svg class="hero-companion companion-flower" viewBox="0 0 100 100" focusable="false"><use href="#eco-flower"/></svg>
+          <div class="art-orbit"></div><span class="art-star star-one">✧</span><span class="art-star star-two">✳</span><span class="art-dot dot-one"></span><span class="art-dot dot-two"></span>
+          <span class="art-sticker sticker-top"><svg class="icon"><use href="#i-sparkle"/></svg> Hello, greener future!</span>
+          <svg class="bottle-art" viewBox="0 0 180 240" fill="none"><ellipse cx="90" cy="224" rx="53" ry="9" fill="#b9d8c4" opacity=".35"/><g class="bottle-body"><rect x="70" y="13" width="40" height="23" rx="7" fill="#74a98c"/><path d="M78 19v10m8-10v10m8-10v10m8-10v10" stroke="#b9dac3" stroke-width="3" stroke-linecap="round"/><path d="M75 36h30v19c0 11 35 21 35 43v97c0 14-9 21-23 21H63c-14 0-23-7-23-21V98c0-22 35-32 35-43V36Z" fill="#e4f4e8" stroke="#82b298" stroke-width="2.5"/><path d="M78 45h24M52 100h76M52 185h76M52 197h76" stroke="#b0d4bc" stroke-width="3" stroke-linecap="round"/><path d="M55 87c2-8 11-13 16-17M53 108v19" stroke="white" stroke-width="7" stroke-linecap="round"/><path d="M41 115h98v58H41z" fill="#9dc6ac"/><circle cx="90" cy="143" r="21" fill="#f7fbf4"/><path d="M102 132c-16-3-26 5-22 15 4 9 19 6 22-15Z" fill="#72a385"/><path d="m78 154 16-16" stroke="#497b60" stroke-width="2.5" stroke-linecap="round"/><circle cx="77" cy="190" r="2" fill="#5a8f70"/><circle cx="102" cy="190" r="2" fill="#5a8f70"/><path d="M85 194q5 5 10 0" stroke="#5a8f70" stroke-width="2" stroke-linecap="round"/></g></svg>
+          <span class="art-sticker sticker-bottom"><span class="sticker-check">✓</span> One bottle, one better step.</span>
+        </div>
+      </section>
+      <section class="panel rvm-panel" id="setoran" aria-labelledby="rvmHeading">
+        <div class="panel-head"><div><div class="eyebrow">REVERSE VENDING MACHINE</div><h2 id="rvmHeading">Setoran kamu<span class="title-dot">.</span></h2></div><span class="session-badge" id="sessionBadge">Belum ada sesi</span></div>
+        <div class="session-totals"><div><span>BOTOL DITERIMA</span><strong id="sessionBottles">0 <small>botol</small></strong></div><div><span>NILAI SETORAN</span><strong id="sessionValue">Rp0</strong></div><div><span id="sessionRateLabel">TARIF BERIKUTNYA</span><strong id="sessionRate">—</strong></div></div>
+        <ol class="rvm-steps" aria-label="Tahap setoran"><li id="stepScan"><span>1</span> Scan botol</li><li id="stepConfirm"><span>2</span> Konfirmasi masuk</li><li id="stepNext"><span>3</span> Botol berikutnya</li></ol>
+        <div class="rvm-guidance" id="rvmGuidance" role="status" aria-live="polite">Memuat sesi setoran…</div>
+        <div class="rvm-actions"><button class="primary" id="beginSession">Mulai Setor <svg class="icon"><use href="#i-arrow"/></svg></button><button class="primary" id="confirmBottle" hidden>Konfirmasi botol masuk (simulasi)</button><button class="primary" id="nextBottle" hidden>Botol berikutnya</button><button class="secondary" id="retryScan" hidden>Scan ulang</button><button class="secondary" id="finishSession" hidden>Selesai &amp; Buat Struk</button></div>
+        <p class="simulation-note">Konfirmasi manual menggantikan sensor pada prototipe ini. Nominal tercatat sebagai nilai setoran; pembayaran belum diproses oleh aplikasi.</p>
+        <p class="mixed-brands-note">Satu transaksi boleh berisi berbagai merek. Scan dan konfirmasi botol satu per satu.</p>
+        <div id="sessionDeposits" class="session-deposits" aria-label="Rincian merek dan jumlah botol dalam transaksi ini"></div>
+      </section>
+      <section class="stats" aria-label="Ringkasan deteksi">
+        <article class="stat stat-mint"><div class="stat-top"><span>HASIL KLASIFIKASI</span><span class="stat-icon"><svg class="icon"><use href="#i-scan"/></svg></span></div><strong class="status-text" id="count">—</strong><small>Prediksi kelas teratas</small><span class="stat-number" aria-hidden="true">01</span></article>
+        <article class="stat stat-lavender"><div class="stat-top"><span>CONFIDENCE MODEL</span><span class="stat-icon"><svg class="icon"><use href="#i-chart"/></svg></span></div><strong id="average">—</strong><small>Tingkat keyakinan, bukan akurasi</small><span class="stat-number" aria-hidden="true">02</span></article>
+        <article class="stat stat-peach"><div class="stat-top"><span>STATUS SISTEM</span><span class="stat-icon"><svg class="icon"><use href="#i-check"/></svg></span></div><strong class="status-text" id="modelStatus">Memuat...</strong><small id="modelInfo">Memeriksa model AI</small><span class="stat-number" aria-hidden="true">03</span></article>
+      </section>
+      <section class="panel" id="scanStudio">
+        <div class="panel-head"><div class="panel-title"><span class="studio-icon"><svg class="icon"><use href="#i-camera"/></svg></span><div><h2>Scan Studio<span class="title-dot">.</span></h2><p>Posisikan satu botol dengan jelas di depan kamera.</p></div></div><button type="button" id="expandCamera" class="secondary" aria-label="Perbesar layar kamera"><svg class="icon"><use href="#i-expand"/></svg> Perbesar</button></div>
+        <div class="viewer" id="viewer">
+          <video id="video" autoplay muted playsinline></video>
+          <canvas id="overlay"></canvas>
+          <div class="placeholder" id="placeholder"><span class="view-corner corner-tl" aria-hidden="true"></span><span class="view-corner corner-tr" aria-hidden="true"></span><span class="view-corner corner-bl" aria-hidden="true"></span><span class="view-corner corner-br" aria-hidden="true"></span><div class="placeholder-icon"><svg class="icon"><use href="#i-camera"/></svg><span class="camera-sparkle" aria-hidden="true">✦</span></div><span class="preview-caption">A LITTLE SPACE FOR A BIG CHANGE</span><b>Siap melihat lebih dekat?</b><span>Aktifkan kamera dan tunjukkan satu botol untuk memulai.</span><span class="preview-hint"><span class="dot"></span> Pastikan botol terlihat jelas &amp; cukup cahaya</span></div>
+          <span class="live-indicator" id="liveIndicator" hidden><span class="dot"></span> LIVE DETECTION</span>
+          <button type="button" id="exitFullscreen" class="secondary fullscreen-exit" hidden>Perkecil</button>
+        </div>
+        <div class="controls"><div class="control-left"><button id="startBtn" class="primary"><svg class="icon"><use href="#i-camera"/></svg> Mulai Kamera <svg class="icon button-arrow"><use href="#i-arrow"/></svg></button><button id="stopBtn" class="secondary" disabled><span class="stop-icon" aria-hidden="true"></span> Hentikan</button></div><div class="status-wrap"><span class="dot" aria-hidden="true"></span><div class="detect-status" id="statusText" role="status">Siap untuk deteksi</div></div></div>
+        <p class="simulation-note" id="confidenceNote">Hasil confidence rendah tidak membuka konfirmasi setoran.</p>
+      </section>
+      <section class="bottom-grid"><article class="info-card"><div class="info-heading"><h3><svg class="icon"><use href="#i-chart"/></svg> Hasil Deteksi</h3><span class="mini-label">AI INSIGHTS</span></div><div id="results" class="empty-results">Belum ada botol yang terdeteksi.</div><div class="results-footnote">Nama merek mengikuti hasil scan kamera dan label model.</div></article><article class="info-card model-card"><div class="info-heading"><h3><svg class="icon"><use href="#i-info"/></svg> Campur mereknya, satu struknya</h3><span class="small-flower" aria-hidden="true">✳</span></div><p id="note">Mulai Setor langsung membuka kamera. Cek hasil scan, lalu konfirmasi botol masuk. Tidak perlu mendaftarkan merek terlebih dahulu.</p><p class="hint">Sesudah konfirmasi, siapkan botol lain lalu tekan Botol berikutnya. Merek boleh berbeda. Tekan Selesai untuk total semua botol dan unduh struk ringkas.</p></article></section>
+      <section class="panel history-panel" id="riwayat" aria-labelledby="historyHeading">
+        <div class="panel-head"><div><h2 id="historyHeading">Kelola transaksi<span class="title-dot">.</span></h2><p>Lihat, tambah, edit, atau hapus transaksi yang sudah selesai.</p></div><div class="history-toolbar"><button class="primary" id="newTransaction">Tambah Transaksi</button><button class="secondary" id="refreshHistory">Muat ulang</button></div></div>
+        <p id="transactionNotice" class="form-message" role="status"></p>
+        <div class="lifetime-summary" id="lifetimeSummary">Memuat ringkasan…</div>
+        <div class="table-scroll"><table class="history-table"><thead><tr><th>Waktu selesai</th><th>Transaksi</th><th>Botol</th><th>Nilai setoran</th><th>Aksi</th></tr></thead><tbody id="historyBody"><tr><td colspan="5">Memuat riwayat…</td></tr></tbody></table></div>
+        <div class="history-pagination"><button class="secondary" id="historyPrev" disabled>Sebelumnya</button><span id="historyPage"></span><button class="secondary" id="historyNext" disabled>Berikutnya</button></div>
+      </section>
+      <details class="panel settings-panel" id="pengaturan"><summary>Tarif setoran <span>Rupiah per botol</span></summary><p class="settings-intro">Atur harga setiap merek. Tarif otomatis dipakai saat scan dan disimpan untuk sesi baru. Riwayat lama tetap memakai harga saat transaksi dibuat.</p><form id="settingsForm"><div class="brand-price-grid">
+        <label class="field">AQUA (Rp / botol)<input type="number" id="priceAqua" min="0" max="100000" step="1" required /></label>
+        <label class="field">Nestle Pure Life (Rp / botol)<input type="number" id="priceNestle" min="0" max="100000" step="1" required /></label>
+        <label class="field">Le Minerale (Rp / botol)<input type="number" id="priceLeMinerale" min="0" max="100000" step="1" required /></label>
+      </div><button class="primary" id="saveSettings" type="submit">Simpan Tarif</button><p class="form-message" id="settingsMessage" role="status"></p></form></details>
+      <footer><span class="footer-brand"><svg class="icon"><use href="#i-leaf"/></svg> EcoVision <span>· Reverse Vending Machine</span></span><span>Small actions. Happier earth. <span class="footer-flower" aria-hidden="true">✿</span></span></footer>
+    </main>
+  </div>
+  <dialog id="transactionDialog" class="transaction-dialog" aria-labelledby="transactionHeading">
+    <form id="transactionForm"><div class="editor-header"><div><div class="eyebrow">DATA TRANSAKSI</div><h2 id="transactionHeading">Tambah transaksi</h2></div><button type="button" class="secondary" id="closeTransaction">Tutup</button></div>
+      <p class="editor-note">Tarif merek terisi otomatis saat menambah rincian dan tetap bisa diubah. Penambahan atau perubahan dicatat sebagai input manual; total dihitung otomatis.</p>
+      <div id="transactionItems" class="transaction-items"></div>
+      <button type="button" class="secondary" id="addTransactionItem">+ Tambah Merek</button>
+      <div class="editor-total"><span id="transactionQuantity">0 botol</span><strong id="transactionTotal">Rp0</strong></div>
+      <p id="transactionError" class="editor-error" role="alert"></p>
+      <button type="submit" class="primary" id="saveTransaction">Simpan Transaksi</button>
+    </form>
+  </dialog>
+  <dialog id="receiptDialog" aria-labelledby="receiptHeading"><div class="receipt-icon">✓</div><div class="eyebrow">SATU LANGKAH BAIK TERCATAT</div><h2 id="receiptHeading">Setoran selesai.</h2><p id="receiptMeta"></p><strong class="receipt-total" id="receiptTotal"></strong><div id="receiptBrands" class="receipt-brands"></div><p class="simulation-note">Nilai setoran tercatat. Struk ini bukan bukti pembayaran.</p><a class="primary download-link" id="downloadReceipt">Download Struk PDF <svg class="icon"><use href="#i-download"/></svg></a><button class="secondary" id="closeReceipt">Tutup</button><p id="receiptError" role="status"></p></dialog>
+  <script src="/static/js/main.js?v=brand-prices-13" defer></script>
+  <script src="/static/js/transactions.js?v=brand-prices-9" defer></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.env
+.env.*
+!.env.example
+venv/
+__pycache__/
+*.pyc
+.venv/
+data/
+test-results/
+.tmp/
+tmp/
+
+# Local SQLite databases and journal files
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Logs and development caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+node_modules/
